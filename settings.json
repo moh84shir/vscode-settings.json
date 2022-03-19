@@ -1,0 +1,47 @@
+{
+    // editor settings
+    "workbench.startupEditor": "none",
+    "update.mode": "none",
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "update.showReleaseNotes": false,
+    "python.analysis.autoImportCompletions": false,
+    "files.autoSave": "onWindowChange",
+    "editor.wordBasedSuggestions": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Consolas, Menlo, Monaco, Estedad, 'Courier New', monospace",
+    "editor.lineHeight": 2,
+    "editor.letterSpacing": 0.9,
+    "editor.cursorBlinking": "smooth",
+    "editor.rulers": [
+        79
+    ],
+
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    // extensions settings
+    "liveServer.settings.donotShowInfoMsg": true,
+    "emmet.triggerExpansionOnTab": true,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css/"
+        }
+    ],
+    "[css]": {
+        "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    },
+    // security settings
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.emptyWindow": false,
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.startupPrompt": "never",
+    "editor.fontSize": 15,
+    "window.zoomLevel": -1,
+}
